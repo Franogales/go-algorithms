@@ -7,7 +7,7 @@ type auto struct {
 }
 
 func NewAuto() *auto {
-	return &auto{}
+	return &auto{model: "", year: 1, name: ""}
 }
 
 func (auto *auto) SetName(name string) {
